@@ -22,7 +22,7 @@ do
   git status
   # echo "${commitMsg}"
   git commit -m "${commitMsg}"
-  git push
+  git push --set-upstream origin main
   count = count + 1 
   echo "##### auto push end ##### ${count}"
   # timeout -s 9 1s sleep 10
