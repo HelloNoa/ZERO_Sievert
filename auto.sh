@@ -11,6 +11,9 @@
 #   exit
 # fi
 
+git config --global user.email "ohyoungwoo824@gmail.com"
+git config --global user.name "HelloNoa"
+
 count = 1;
 while :
 do
